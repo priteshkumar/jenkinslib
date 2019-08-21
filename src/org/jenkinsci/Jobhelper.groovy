@@ -5,10 +5,10 @@ class Jobhelper implements Serializable{
     //def ci 
     //def jvmversion
     def steps
-    
+    def ci	    
     Jobhelper(steps){
         this.steps = steps
-        //this.ci="jenkins"
+        this.ci="jenkins"
         //this.jvm="1.8_u221"
     }
     
