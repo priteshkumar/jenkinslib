@@ -6,10 +6,10 @@ class Jobhelper implements Serializable{
     def jvmversion
     def steps
     
-    Jobhelper(steps,ci="jenkins",jvm="1.8_u221"){
+    Jobhelper(steps){
         this.steps = steps
-        this.ci=ci
-        this.jvm=jvm
+        this.ci="jenkins"
+        this.jvm="1.8_u221"
     }
     
     def checkoutSource(giturl,revision){
