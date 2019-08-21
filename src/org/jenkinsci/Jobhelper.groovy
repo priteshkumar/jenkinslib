@@ -2,14 +2,14 @@ package org.jenkinsci
 
 class Jobhelper implements Serializable{
     
-    def ci 
-    def jvmversion
+    //def ci 
+    //def jvmversion
     def steps
     
     Jobhelper(steps){
         this.steps = steps
-        this.ci="jenkins"
-        this.jvm="1.8_u221"
+        //this.ci="jenkins"
+        //this.jvm="1.8_u221"
     }
     
     def checkoutSource(giturl,revision){
@@ -27,8 +27,8 @@ class Jobhelper implements Serializable{
     }
     
     def printStats(){
-        println this.ci 
-        println this.jvm
+        println "hello" 
+        
     
     }
 
