@@ -1,4 +1,4 @@
-package com.jenkins.jobhelper
+package com.jenkins
 
 class Jobhelper implements Serializable{
     
