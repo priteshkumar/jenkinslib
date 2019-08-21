@@ -6,7 +6,7 @@ class Jobhelper implements Serializable{
     def jvmversion
     def steps
     
-    Jobhelper(steps,ci,jvm){
+    Jobhelper(steps,ci="jenkins",jvm="1.8_u221"){
         this.steps = steps
         this.ci=ci
         this.jvm=jvm
